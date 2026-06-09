@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
+  <head>
     <title>Bank Muskat</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="container" id="loginForm">
-        <h1 class="topHeader">Bank Muskat</h1>
-        <h1 class="loginTitle">Enter your login credentials</h1>
+      <h1 class="topHeader">Bank Muskat</h1>
+      <h1 class="loginTitle">Enter your login credentials</h1>
 
-        <div class="inform">
-            <form id="loginForm">
+      <div class="inform">
+        <label class="username">UserName : </label> <br />
+        <input
+          type="text"
+          placeholder="Enter your UserName"
+          id="textusername"
+        />
+        <br /><br />
 
-                <label class="username">UserName : </label> <br>
-                <input type="text" placeholder="Enter your UserName" id="textusername"> <br><br>
+        <label class="password">Password : </label> <br />
+        <input
+          type="text"
+          placeholder="Enter valid password"
+          id="textpassword"
+        />
+        <br /><br />
 
-                <label class="password">Password : </label> <br>
-                <input type="text" placeholder="Enter valid password" id="textpassword"> <br><br>
+        <button type="button" onclick="login()">Submit</button>
 
-                <button type="submit">Submit</button>
-
-                <p>Not registered? <a> Create a new Account</a></p>
-            </form>
-        </div>
+        <p>Not registered? <a> Create a new Account</a></p>
+      </div>
     </div>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>

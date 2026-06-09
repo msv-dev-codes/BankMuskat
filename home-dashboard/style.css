@@ -1,0 +1,7 @@
+.BalanceAmountContainer{
+    padding: 16;
+    background-color: rgba(87, 241, 246, 0.585);
+    gap: 24;
+    height: 70px;
+    width: 150px;
+}
